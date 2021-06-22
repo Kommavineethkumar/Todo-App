@@ -1,0 +1,61 @@
+.todos-holder{
+    width: 100%;
+    display: block;
+    position: absolute;
+    
+}
+
+.todo-bar{
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.todo-item{
+    display: block;
+    position: relative;
+    background: rgb(2,0,36);
+    /* background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, #8f71ff 0%, #82acff 100%); */
+    background: #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 4px 4px 176px 27px rgba(0,250,75,0.21);
+    -webkit-box-shadow: 4px 4px 176px 27px rgba(0,250,75,0.21);
+    -moz-box-shadow: 4px 4px 176px 27px rgba(0,250,75,0.21);;
+    width: 95%;
+    margin-left: 10px;
+    border-width: 10px;
+    border-radius: 15px 15px;
+}
+
+#todo-header{
+    text-align: center;
+    display: block;
+    position: relative;
+    margin: 0;
+    color: black;
+}
+
+#todo-time{
+    text-align: center;
+    display: block;
+    margin-top:5px;
+    color:whitesmoke;
+}
+
+#wrong{
+    position: absolute;
+    height: 25px;
+    border-radius: 50px 50px;
+    right: 20px;
+    top: 16px;
+}
+
+#right{
+    position: absolute;
+    height: 25px;
+    border-radius: 46px 46px;
+    right: 70px;
+    top: 16px;
+}

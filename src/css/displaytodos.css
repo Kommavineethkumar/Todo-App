@@ -1,0 +1,259 @@
+.add-todo{
+    height: 50px;
+    width: 50px;
+    border-radius: 40px 40px;
+    top: 18%;
+    left: 30%;
+}
+
+.add-todo-button{
+    height: 30px;
+    width: 10vw;
+    border-radius: 20px 20px;
+    position: absolute;
+    top: 106px;
+    left: 10vw;
+    background-color: aliceblue;
+}
+
+.cancel-todo-button{
+    height: 30px;
+    width: 10vw;
+    border-radius: 20px 20px;
+    position: absolute;
+    top: 106px;
+    left: 22vw;
+    background-color: aliceblue;
+}
+
+.done-todo-button{
+    height: 30px;
+    width: 10vw;
+    border-radius: 20px 20px;
+    position: absolute;
+    top: 106px;
+    left: 15vw;
+    background-color: aliceblue;
+}
+
+.delete-todo{
+    height: 30px;
+    width: 100px;
+    border-radius: 15px 15px;
+    top: 18%;
+    left: 40%;
+    background-color: aliceblue;
+}
+
+.todo-entry{
+    position: absolute;
+    padding-top: 10px;
+    top: 35%;
+    left: 30vw;
+    height: 160px;
+    width: 40vw;
+    background-color: whitesmoke;
+    border-radius: 10px 10px;
+    box-shadow: 4px 4px 38px 2px rgba(0,0,0,0.62);
+-webkit-box-shadow: 4px 4px 38px 2px rgba(0,0,0,0.62);
+-moz-box-shadow: 4px 4px 38px 2px rgba(0,0,0,0.62);
+}
+
+
+.counter{
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    text-align: center;
+    color:gold;
+}
+
+.show-todo{
+    background-color: #22e694;
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    width: 68%;
+    height: 68%;
+    border-radius: 10px 10px;
+}
+
+.show-todo-name{
+    padding-left: 20px;
+}
+
+#enter-todo-head{
+    position: absolute;
+    left: 40%;
+    top: 15px;
+}
+
+#enter-todo-time{
+    position: absolute;
+    left: 40%;
+    top: 49px;
+}
+
+#task-name{
+    position: relative;
+    top: -12px;
+    left: 5%;
+}
+
+#task-time{
+    position: relative;
+    top: -15px;
+    left: 5%;
+}
+
+#delete-name{
+    position: relative;
+    top: 0px;
+    text-align: center;
+}
+
+.todo-bar{
+    overflow-y: hidden;
+}
+
+.options{
+    position: relative;
+    margin-left: 0;
+    text-align: center;
+}
+
+.todos-holder{
+    margin-top: 30px;
+    left: 22%;
+    width: 60%;
+}
+
+#app-heading{
+    font-size: 40px;
+    background: -webkit-linear-gradient(rgb(88, 3, 168), rgba(10, 151, 156, 0.678));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 750px) {
+    .todos-holder{
+        margin-top: 30px;
+        width: 100%;
+        left: 0;
+    }
+
+    .add-todo{
+        height: 50px;
+        width: 50px;
+        border-radius: 40px 40px;
+        top: 18%;
+        left: 30%;
+    }
+    
+    .add-todo-button{
+        height: 6vh;
+        width: 30vw;
+        border-radius: 20px 20px;
+        position: absolute;
+        top: 106px;
+        left: 10vw;
+        background-color: aliceblue;
+    }
+    
+    .cancel-todo-button{
+        height: 6vh;
+        width: 30vw;
+        border-radius: 20px 20px;
+        position: absolute;
+        top: 106px;
+        left: 55vw;
+        background-color: aliceblue;
+    }
+    
+    .done-todo-button{
+        height: 30px;
+        width: 100px;
+        border-radius: 20px 20px;
+        position: absolute;
+        top: 106px;
+        left: 150px;
+        background-color: aliceblue;
+    }
+    
+    .delete-todo{
+        height: 30px;
+        width: 100px;
+        border-radius: 15px 15px;
+        top: 18%;
+        left: 40%;
+        background-color: aliceblue;
+    }
+    
+    .todo-entry{
+        position: absolute;
+        padding-top: 10px;
+        top: 35%;
+        left: 5%;
+        height: 150px;
+        width: 90vw;
+        background-color: whitesmoke;
+        border-radius: 10px 10px;
+        box-shadow: 4px 4px 38px 2px rgba(0,0,0,0.62);
+    -webkit-box-shadow: 4px 4px 38px 2px rgba(0,0,0,0.62);
+    -moz-box-shadow: 4px 4px 38px 2px rgba(0,0,0,0.62);
+    }
+
+    #enter-todo-head{
+        position: absolute;
+        left: 60vw;
+        top: 15px;
+        width: 22vw;
+    }
+    
+    #enter-todo-time{
+        position: absolute;
+        left: 60vw;
+        top: 49px;
+        width: 22vw;
+    }
+    
+    #task-name{
+        position: relative;
+        top: -12px;
+        left: 5%;
+    }
+    
+    #task-time{
+        position: relative;
+        top: -15px;
+        left: 5%;
+    }
+    
+    #delete-name{
+        position: relative;
+        top: 0px;
+        text-align: center;
+    }
+    
+  }
+
+#errorText{
+    color:rgb(255, 0, 0);
+    position: relative;
+    display: block;
+    text-align: center;
+    top: -14%;
+    left: 5%;
+}
+
+#infoText{
+    color:rgb(0, 90, 226);
+    position: relative;
+    display: block;
+    text-align: center;
+    top: -14%;
+    left: 5%;
+}
