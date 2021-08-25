@@ -1,4 +1,4 @@
-# Todo App for Excellence Technologies (Question 1)
+# Todo App
 
 
 Steps to initialize the project
