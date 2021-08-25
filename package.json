@@ -2,7 +2,7 @@
   "name": "todo-app",
   "version": "0.1.0",
   "author": "Vineeth Kumar Komma",
-  "description": "Todo App demo for Excellence Technologies",
+  "description": "Todo App",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
